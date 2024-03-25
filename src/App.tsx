@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-      <h1>Miller Manicures & More!</h1>
+      <h1>Miller's Manicures & More!</h1>
   )
 }
 
