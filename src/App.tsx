@@ -11,22 +11,32 @@ function App() {
 
     <div className = "headerAndMenu">
 
-      <div className = "title">
+      <div className = "titleContainer">
 
-        <h1>Miller's</h1>
-        <h1>Manicures &</h1>
-        <h1>More</h1>
+        <h1 className = "title1">Miller's</h1>
+        <h1 className = "title2">Manicures &</h1>
+        <h1 className = "title3">More</h1>
 
       </div>
 
       <div className = "menuButtons">
-        <a className = "link" href="./Appointments.tsx">Appointments</a>
-        <h2>|</h2>
+        <button>
+          <a className = "link" href="./Appointments.tsx">Appointments</a>
+        </button>
+        
+        <button>
         <a className = "link" href="./About.tsx">About</a>
-        <h2>|</h2>
+        </button>
+
+        <button>
         <a className = "link" href="./Contact.tsx">Contact</a>
-        <h2>|</h2>
+        </button>
+
+        <button>
         <a className = "link" href="./TestimoniesAndImages.tsx">Testimonies and Images</a>
+
+        </button>
+        
       </div>
 
 
