@@ -305,10 +305,10 @@ button {
       background-size: cover;
       background-repeat: no-repeat;
       width: 34%;
-      height: 21%;
+      height: 23%;
       position:absolute;
-      left: 1.5dvw;
-      top: 9.5dvh;
+      left: 1dvw;
+      top: 8.5dvh;
   
     }
   }
