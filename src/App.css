@@ -267,7 +267,7 @@ button {
   }
 
   .title1 {
-    padding-left: 10%;
+    padding-left: 12%;
   }
 
   .menuButtons{
@@ -307,7 +307,7 @@ button {
       width: 34%;
       height: 23%;
       position:absolute;
-      left: .3dvw;
+      left: .5dvw;
       top: 10dvh;
   
     }
