@@ -245,7 +245,8 @@ button {
     background-repeat: no-repeat;
     width: 34%;
     height: 34%;
-    position:bottom;
+    border-color: black;
+    border-style: solid;
   }
   
   .title1, .title2, .title3 {
