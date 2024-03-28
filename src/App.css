@@ -28,7 +28,7 @@
   position: absolute;
   display: grid;
   grid-template-rows: auto auto;
-  background-color: rgba(42,149,63, .9);
+  background-color: rgba(93,196,117, .9);
   border-radius: 25px;
   width: 90%;
   height: 90%;
@@ -40,18 +40,32 @@
 .titleContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
   width: 80%;
   height: 50%;
 }
 
+
+.title1::before {
+  content: ' ';
+  background-image: url('./assets/LogoTransparent.png');
+  display:inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 70%;
+}
+
 .title1, .title2, .title3 {
-  font-size: 4.5em;
+  position: top;
+  margin: 0px;
+  font-size: 7.3em;
   color: rgb(255,209,102);
   
 }
+
 .menuButtons{
   display:flex;
   flex-wrap: wrap;
@@ -65,7 +79,7 @@
 }
 
 .link, .link:visited {
-  font-size: 2em;
+  font-size: 3em;
   color: rgb(255,209,102);
   text-decoration: none;
 
@@ -77,6 +91,102 @@ button {
   border-style: solid;
   border-radius: 25px;
   background-color:rgb(30,109,49);
+}
+
+@media only screen and (max-width: 800px){
+  .main {
+    width: 100%;
+    height: 100%;
+    text-shadow: -1px 1px 2px rgb(0,0,0), 
+    1px 1px 2px rgb(0,0,0),
+    1px -1px 2px rgb(0,0,0),
+    -1px -1px 2px rgb(0,0,0);
+  }
+  .headerPhotoContainer {
+    position:absolute;
+    display: flex;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+  
+  .headerPhoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+  }
+  
+  .headerAndMenu {
+    position: absolute;
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: rgba(93,196,117, .9);
+    border-radius: 25px;
+    width: 100%;
+    height: 90%;
+    justify-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+  }
+  
+  .titleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    width: 80%;
+    height: 90%;
+
+  }
+
+
+  .title1::before {
+    content: ' ';
+    background-image: url('./assets/LogoTransparent.png');
+    display:inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 35%;
+  }
+  
+  .title1, .title2, .title3 {
+    margin: 0px;
+    font-size: 4.5em;
+    color: rgb(255,209,102);
+    
+  }
+  .menuButtons{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    width: 70%;
+    height: fit-content;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255,209,102);
+  }
+  
+  .link, .link:visited {
+    font-size:2em;
+    color: rgb(255,209,102);
+    text-decoration: none;
+  
+  }
+  
+  button {
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    background-color:rgb(30,109,49);
+    width: auto;
+
+  }
 }
 
 @media only screen and (max-width: 600px){
@@ -108,7 +218,7 @@ button {
     position: absolute;
     display: grid;
     grid-template-rows: auto auto;
-    background-color: rgba(42,149,63, .9);
+    background-color: rgba(93,196,117, .9);
     border-radius: 25px;
     width: 90%;
     height: 80%;
@@ -125,10 +235,21 @@ button {
     grid-template-rows: auto auto auto;
     width: 90%;
     height: 50%;
+    flex-grow: 1;
+  }
+
+  .title1::before {
+    content: ' ';
+    background-image: url('./assets/LogoTransparent.png');
+    display:inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 29.5%;
   }
   
   .title1, .title2, .title3 {
-    font-size: 3.5em;
+    font-size: 4.5em;
     color: rgb(255,209,102);
     
   }
