@@ -1,6 +1,7 @@
 
 import './App.css'
 import headerPhoto from './assets/pexels-magda-ehlers-2861751.jpg';
+import logo from './assets/LogoTransparent.png';
 function App() {
   return (
 
@@ -14,8 +15,11 @@ function App() {
 
       <div className = "titleContainer">
 
-        
-        <h1 className = "title1">Miller's </h1>
+        <div className = "title1AndLogo">
+          <img className = "logo" src = {logo} alt = "MMM Logo"/>
+          <h1 className = "title1">iller's </h1>
+        </div>
+
         <h1 className = "title2">Manicured</h1>
         <h1 className = "title3">Mowing &</h1>
         <h1 className = "title4">More</h1>
@@ -36,7 +40,7 @@ function App() {
         </button>
 
         <button>
-        <a className = "link" href="./TestimoniesAndImages.tsx">Testimonies and Images</a>
+        <a className = "lastLink" href="./TestimoniesAndImages.tsx">Testimonies and Images</a>
 
         </button>
         
