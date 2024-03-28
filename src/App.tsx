@@ -15,7 +15,7 @@ function App() {
       <div className = "titleContainer">
 
         
-        <h1 className = "title1">iller's Manicured Mowing & More</h1>
+        <h1 className = "title1">Miller's Manicured Mowing & More</h1>
 
       </div>
 

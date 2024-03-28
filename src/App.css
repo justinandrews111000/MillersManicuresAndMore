@@ -235,6 +235,11 @@ button {
     width: 90%;
     height: 50%;
     flex-grow: 1;
+    padding-top: 30%;
+  }
+
+  .title1::first-letter {
+    opacity: 0;
   }
 
   .title1::before {
@@ -243,11 +248,11 @@ button {
     display:inline-block;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 35%;
-    height: 35%;
-    position:relative;
-    left: 5%;
-    top: .7%;
+    width: 33%;
+    height: 18%;
+    position:absolute;
+    right: 61.5%;
+    bottom: 71.99%;
 
   }
   
