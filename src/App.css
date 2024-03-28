@@ -293,7 +293,7 @@ button {
   @media not all and (min-resolution:.001dpcm) {
 
     .title1::before {
-      content: '';
+      content: 'Test';
       background-image: url('./assets/LogoTransparent.png');
       display:inline-block;
       background-size: cover;
@@ -301,7 +301,7 @@ button {
       width: 33%;
       height: 18%;
       position:absolute;
-      left: 2.5dvh;
+      left: 2.5dvw;
       top: 1000dvh;
   
     }
