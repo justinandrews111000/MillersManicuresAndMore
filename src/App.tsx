@@ -1,7 +1,6 @@
 
 import './App.css'
 import headerPhoto from './assets/pexels-magda-ehlers-2861751.jpg';
-
 function App() {
   return (
 
@@ -9,13 +8,14 @@ function App() {
 
     <div className = "headerPhotoContainer">
 
+
     <div className = "headerAndMenu">
+
 
       <div className = "titleContainer">
 
-        <h1 className = "title1">Miller's</h1>
-        <h1 className = "title2">Manicures &</h1>
-        <h1 className = "title3">More</h1>
+        
+        <h1 className = "title1">iller's Manicured Mowing & More</h1>
 
       </div>
 
