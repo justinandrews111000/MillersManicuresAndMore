@@ -292,7 +292,7 @@ button {
 
   @supports (font: -apple-system-body) and (-webkit-appearance: none) {
     .title1::before {
-      content: 'test';
+      content: ' ';
       background-image: url('./assets/LogoTransparent.png');
       display:inline-block;
       background-size: cover;
@@ -300,8 +300,8 @@ button {
       width: 33%;
       height: 18%;
       position:absolute;
-      left: 2.5dvh;
-      top: 8.1dvh;
+      left: 2.5dvw;
+      top: 9dvh;
   
     }
   }
