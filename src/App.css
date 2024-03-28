@@ -290,10 +290,9 @@ button {
     background-color:rgb(30,109,49);
   }
 
-  @media not all and (min-resolution:.001dpcm) {
-
+  @supports (font: -apple-system-body) and (-webkit-appearance: none) {
     .title1::before {
-      content: 'Test';
+      content: 'test';
       background-image: url('./assets/LogoTransparent.png');
       display:inline-block;
       background-size: cover;
@@ -301,11 +300,10 @@ button {
       width: 33%;
       height: 18%;
       position:absolute;
-      left: 2.5dvw;
-      top: 9dvh;
+      left: 2.5dvh;
+      top: 8.1dvh;
   
     }
-
   }
 
 }
