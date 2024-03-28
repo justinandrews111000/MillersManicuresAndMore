@@ -245,7 +245,7 @@ button {
   }
 
   .title1::before {
-    content: 'Test';
+    content: ' ';
     background-image: url('./assets/LogoTransparent.png');
     display:inline-block;
     background-size: cover;
