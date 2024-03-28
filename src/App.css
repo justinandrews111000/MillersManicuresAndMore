@@ -304,11 +304,11 @@ button {
       display:inline-block;
       background-size: cover;
       background-repeat: no-repeat;
-      width: 33%;
+      width: 34%;
       height: 20%;
       position:absolute;
       left: 1.5dvw;
-      top: 10dvh;
+      top: 9.5dvh;
   
     }
   }
