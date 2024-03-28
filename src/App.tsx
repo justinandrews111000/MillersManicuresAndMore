@@ -15,7 +15,10 @@ function App() {
       <div className = "titleContainer">
 
         
-        <h1 className = "title1">Miller's Manicured Mowing & More</h1>
+        <h1 className = "title1">Miller's </h1>
+        <h1 className = "title2">Manicured</h1>
+        <h1 className = "title3">Mowing &</h1>
+        <h1 className = "title4">More</h1>
 
       </div>
 
