@@ -243,10 +243,12 @@ button {
     display:inline-block;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 34%;
-    height: 34%;
-    border-color: black;
-    border-style: solid;
+    width: 35%;
+    height: 35%;
+    position:relative;
+    left: 5%;
+    top: .6%;
+
   }
   
   .title1, .title2, .title3 {
