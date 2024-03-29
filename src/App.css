@@ -290,7 +290,7 @@ button {
     width: 100%;
     height: fit-content;
     grid-template-columns: 33vw 33vw 33vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     color: rgb(255,209,102);
     padding-top: 5dvh;
@@ -298,7 +298,7 @@ button {
   
   .link, .link:visited, .lastLink, .lastLink:visited {
     
-    font-size: 7vw;
+    font-size: 4dvh;
     color: rgb(255,209,102);
     text-decoration: none;
     align-self: flex-start;

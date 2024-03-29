@@ -40,7 +40,7 @@ function App() {
         </button>
 
         <button>
-        <a className = "lastLink" href="./TestimoniesAndImages.tsx">Testimonies and Images</a>
+        <a className = "lastLink" href="./TestimoniesAndImages.tsx">Images</a>
 
         </button>
         
