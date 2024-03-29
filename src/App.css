@@ -293,7 +293,7 @@ button {
     justify-content: space-evenly;
     align-items: center;
     color: rgb(255,209,102);
-    place-self: center end;
+    padding-top: 5dvh;
   }
   
   .link, .link:visited, .lastLink, .lastLink:visited {
